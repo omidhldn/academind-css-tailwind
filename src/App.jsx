@@ -4,7 +4,11 @@ function App() {
 
   return (
     <>
-      <div className='bg-lime-800 text-amber-200 mx-4'>Hello World!</div>    
+      <main>
+        <section>
+          <h1>Get the Freedom You Deserve.</h1>  
+        </section>  
+      </main>  
     </>
   )
 }
