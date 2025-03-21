@@ -1,1 +1,18 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap'); */
+@font-face {
+  font-family: Anton;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./../public/assets/fonts/Anton-Regular.ttf") format("truetype");
+}
 @import "tailwindcss";
+
+
+/* body {
+  --academind-red : #ff1b68;
+} */
+@theme {
+  --font-display: "Anton", "sans-serif";
+  --color-academind-pink : #ff1b68;
+}
