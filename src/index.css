@@ -4,7 +4,14 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("./../public/assets/fonts/Anton-Regular.ttf") format("truetype");
+  src: url("asset/fonts/Anton-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("asset/fonts/montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
 }
 @import "tailwindcss";
 
@@ -13,6 +20,8 @@
   --academind-red : #ff1b68;
 } */
 @theme {
-  --font-display: "Anton", "sans-serif";
+  --font-anton: "Anton", "sans-serif";
+  --font-montserrat: "Montserrat", "sans-serif";
   --color-academind-pink : #ff1b68;
+  --color-academind-green : #2ddf5c;
 }
