@@ -1,0 +1,48 @@
+@font-face {
+  font-family: Montserrat;
+  src: url('../../../src/asset/fonts/montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  color: darkgreen;
+  font-family: sans-serif;
+}
+
+li {
+font-family: inherit;
+}
+
+.code-element {
+  color: greenyellow;
+}
+
+code {
+  font-family: monospace;
+  color: red;
+}
+
+li + li {
+  background-color: black;
+  color: white;
+}
+
+/* li:nth-child(1) {
+background-color: inherit;
+color: inherit;
+} */
+
+/* ol li {
+  background-color: black;
+  color: white;
+} */
+
+ol {
+  & li {
+    background-color: black;
+    color: white;
+  }
+}
